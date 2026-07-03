@@ -69,7 +69,7 @@ String url="http://172.16.1.12/services/login.php?u="+u+"&p="+p;
     }
     public void webServices2(View x){
     RequestQueue servicio2= Volley.newRequestQueue(this);
-        String u=e1.getText().toString();//HOLA
+        String u=e1.getText().toString();//MARIAM Y ALISON ESTUVIERON AQUI
         String p=e2.getText().toString();
         String url="http://10.29.179.187/backend_4951/index.php";
         StringRequest respuesta=new StringRequest(Request.Method.POST,
